@@ -1,0 +1,223 @@
+.banner {
+  height: 50vh;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("image/mer.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 20px 20px 20px;
+  padding:20px 20px 20px 20px;
+}
+
+.btn-treehouse{
+  border-radius: 5px;
+  border:2px solid #0F0083;
+  color: #0F0083;
+  font-size: 15px;
+  font-family: relaway;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  font-weight:bolder;
+  transition:all 0.4s ease;
+}
+
+.btn-treehouse:hover{
+  background-color: #0F0083;
+  color: white;
+  text-decoration: none;
+ }
+
+.banner h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: raleway;
+  letter-spacing: 3px;
+}
+
+.banner p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: roboto;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+}
+
+.tabs {
+  background:#0F0083;
+  color:white;
+  display: flex;
+  padding: 15px 15px 0px 15px;
+}
+
+.tabs h3 {
+  font-size: 15px;
+  font-family: raleway;
+  letter-spacing: 3px;
+}
+
+.tabs-item {
+  background: #0F0083;
+  flex: 0 0 25%;
+  text-align: center;
+}
+
+.tabs-item:first-child {
+  border-radius: 10px 0 0 0;
+}
+.tabs-item:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.tabs-item.active {
+  background: white;
+  color: #0F0083;
+}
+
+
+.list-unstyled{
+  padding: 20px 20px; 
+  margin:20px 20px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #0F0083;
+}
+
+.product:hover {
+  background: rgb(240, 240, 240);
+  font-size: 18px;
+  color: white;
+  background-color:#0F0083; 
+}
+
+}
+
+.product:hover .product-upvote {
+  font-size: 18px;
+  
+}
+
+.product-upvote {
+  font-size: 13px;
+  text-align: center;
+  font-family: roboto;
+  line-height: 5px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  transition: all 0.3s ease;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  font-size: 13px; 
+  font-family: roboto;
+  letter-spacing: 2px;
+  line-height: 2px
+  padding: 10px 10px 20px 20px;
+  margin: 10px 10px 20px 20px;
+
+}
+
+.product-description p{
+  font-style: italic;
+}
+
+.product-description h3{
+  font-style: bolder;
+}
+
+
+.product-controls a {
+  font-size: 15px;
+  color: #CCCCCC;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  grid-gap: 15px 15px;
+  margin: 20px 20px;
+  padding:20px 20px;
+}
+
+.card {
+  border-width: 4px;
+  display: inline flex;
+  border-style:solid;
+  border-color: #0F0083;
+  font-family: roboto;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.content{
+  display: inline-flex;
+  text-align: center;
+  font-family: roboto;
+  font-size: 13px;
+  color: black;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  margin:10px 10px;
+}
+
+@media(max-width: 992px) {
+  .grid-container {
+    flex: 0 0 45%;
+  }
+}
+@media(max-width: 768px) {
+  .grid-container {
+    flex: 0 0 90%;
+  }
+}
+
+
+
+#footer {
+  background:#0F0083;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  align-items: center;
+
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 30px;
+}
+#footer a:hover {
+  color: white;
+}
+
+ul#menu li {
+  display:inline;
+  margin: 70px 70px 90px 90px;
+  padding: 70px 70px 90px 90px;
+}
+
+.td{
+  font-size: 13px;
+}
